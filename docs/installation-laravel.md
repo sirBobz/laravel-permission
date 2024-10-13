@@ -66,11 +66,13 @@ Package Version | Laravel Version
         php artisan migrate
 
 9. **Add the necessary trait to your User model**: 
-
+        // Import the HasRoles Trait
+        use Spatie\Permission\Traits\HasRoles;
+   
         // The User model requires this trait
         use HasRoles;
 
-10. Consult the **Basic Usage** section of the docs to get started using the features of this package.
+11. Consult the **Basic Usage** section of the docs to get started using the features of this package.
 
 .
 
